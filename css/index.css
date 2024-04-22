@@ -1,0 +1,72 @@
+.center{
+    width: 1300px;
+    height: 900px;
+    margin: auto;
+    background-image: url('../layout/首页.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.center img{
+    width: 100%;
+    height: 100%;
+}
+#intro{
+    position: relative;
+    top: 736px;
+    left: 204px;
+    width: 156px;
+    height: 97px;
+    background-image: url('../partDrawing/icon-3.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: none;
+    cursor: pointer;
+}
+#introPage{
+    display: none;
+}
+#icoOne{
+    width: 90px;
+    height: 140px;
+    position: absolute;
+    margin-left: 409px;
+    margin-top: 174px;
+    display: none;
+    cursor: pointer;
+}
+#icoOne:hover{
+    width: 125px;
+    height: 144px;
+    position: absolute;
+    margin-left: 393px;
+    margin-top: 171px;
+}
+#icoTwo{
+    width: 90px;
+    height: 140px;
+    position: absolute;
+   margin-left: 878px;
+   margin-top: 486px;
+    display: none;
+    cursor: pointer;
+}
+#icoTwo:hover{
+    width: 125px;
+    height: 144px;
+    position: absolute;
+   margin-left: 861px;
+   margin-top: 482px;
+}
+#leftPage{
+    width: 650px;
+    height: 900px;
+    position: absolute;
+    display: none;
+}
+#rightPage{
+    width: 650px;
+    height: 900px;
+    position: absolute;
+   left: 50%;
+    display: none;
+}
